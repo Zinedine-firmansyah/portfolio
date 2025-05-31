@@ -1,0 +1,9 @@
+# Netlify redirects file
+# Handle client-side routing for single-page applications
+/*    /index.html   200
+
+# Optional: Redirect www to non-www
+https://www.zinedine-portfolio.netlify.app/*  https://zinedine-portfolio.netlify.app/:splat  301!
+
+# Optional: Redirect HTTP to HTTPS
+http://zinedine-portfolio.netlify.app/*  https://zinedine-portfolio.netlify.app/:splat  301!
